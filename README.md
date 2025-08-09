@@ -15,47 +15,29 @@
 
 
 ### Project Description
-[2-3 lines about what your project does]
+ #### It’s an interactive web experience where you tell an AI-powered Kerala grandmother your problems, and she responds with mood swings, cultural proverbs, and nostalgic village-life stories. The goal isn’t just conversation — it’s recreating the personality and unpredictability of a real Ammachi.
 
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
 
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages used - backend (python) , frontend (HTML,CSS and javascript)
+- Frameworks used - FLASK
+- Libraries used - Flask,python-dotenv,google-generativeai
+- Tools used - vscode, Gemini-pro api
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![screenshot 1](<home page.png>)
+This is the home page of the web app. we can start chatting with the AI ammachi by clicking "lets start" button.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+!![screenshot 2](<Screenshot 2025-08-09 160402.png>)
+This is the advice page where we can get advice by chatting.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+!![screenshot 3](<Screenshot 2025-08-09 170805.png>)
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
