@@ -1,17 +1,18 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# അമ്മച്ചി പറയും👵🌿✨  🎯
 
 
-## Basic Details
-### Team Name: [Name]
+## Ammachi Parayum is a web app where a warm and wise Keralite Ammachi chats with users in real time, giving advice and responding naturally using AI.
+
+### Team Name: CodeSquad
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Dil Basweera K K - Cochin University of science and technology 
+- Member 2: Renjini Thomas - Cochin University of science and technology 
+
 
 ### Project Description
 [2-3 lines about what your project does]
