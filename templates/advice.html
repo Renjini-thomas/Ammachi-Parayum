@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammachi's Advice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Ammachi's Advice</h1>
+    </header>
+    <main class="container">
+        <div id="chat-box" class="chat-box">
+            <div class="chat-message ammachi-message">Namaskaram, monu/molu. Ammachi is here to listen. What's on your mind?</div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Ask Ammachi anything...">
+            <button id="send-btn">Send</button>
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

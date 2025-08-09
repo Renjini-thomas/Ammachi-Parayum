@@ -4,16 +4,21 @@ import google.generativeai as genai
 
 # Load environment variables
 load_dotenv()
-API_KEY = os.getenv("GOOGLE_API_KEY")
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Configure the API
 if not API_KEY:
-    raise ValueError("GOOGLE_API_KEY not found. Please set it in your .env file.")
+    raise ValueError("GEMINI_API_KEY not found. Please set it in your .env file.")
 genai.configure(api_key=API_KEY)
+
+# print("Available Models:")
+# for m in genai.list_models():
+#     if 'generateContent' in m.supported_generation_methods:
+#         print(m.name)
 
 # Define the model and system instruction for Ammachi's persona
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-latest",
+    model_name="gemini-1.5-flash-latest",
     system_instruction="""
     You are an old Keralite grandmother (Ammachi) named Saramma, aged 70-80. 👵 Your responses should be in a nurturing, affectionate, and slightly nostalgic tone, as if you're speaking to your own grandchild (monu or molu). 🥺
 
