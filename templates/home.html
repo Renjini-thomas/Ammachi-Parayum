@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ammachi Parayum</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Ammachi Parayum</h1>
-    </header>
-    <main class="container" style="text-align: center; margin-top: 50px;">
-        <h2>Your Personal Ammachi for Advice</h2>
-        <p>Talk to our digital Ammachi and get advice on life, love, and everything in between, just like a real grandmother would.</p>
-        <a href="{{ url_for('advice') }}" style="display: inline-block; padding: 10px 20px; background-color: #00796b; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px;">Start Chatting</a>
-    </main>
+<body class="homepage-background">
+    
+    <div class="container">
+        <header>
+            <h1>🍃അമ്മച്ചി പറയും🍃</h1>
+        </header>
+        <div class="advice-box">
+            <div class="advice-title">ഉപദേശം</div>
+                <div class="advice-text">നമ്മുടെ ഡിജിറ്റൽ അമ്മച്ചിയോട് സംസാരിക്കൂ, ജീവിതത്തെക്കുറിച്ചും, സ്നേഹത്തെക്കുറിച്ചും, മറ്റെല്ലാ കാര്യങ്ങളെക്കുറിച്ചും ഒരു യഥാർത്ഥ മുത്തശ്ശി പറയുന്നത് പോലെ ഉപദേശങ്ങൾ നേടൂ.</div> 
+        </div>
+        <div><a href="{{ url_for('advice') }}" class="start-chat-btn">സംസാരിച്ച് തുടങ്ങാം</a></div>
+    </div>
+    
 </body>
 </html>
