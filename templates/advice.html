@@ -9,20 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="homepage-background">
+    
     
-    <main class="chat-main-container">
-    <header>
-        <h1>🍃അമ്മച്ചിയുടെ ഉപദേശം🍃</h1>
-    </header>
-        <div id="chat-box" class="chat-box">
-            <div class="chat-message ammachi-message">നമസ്കാരം കൊച്ചേ. അമ്മച്ചി ഇവിടെ കേൾക്കാനുണ്ട്. എന്താ മനസ്സിൽ?</div>
+    <div class="container-advice">
+    <div class="advice-box">🍃അമ്മച്ചിയുടെ ഉപദേശം🍃</div>
+        <div id="chat-box" class="chat-box2">
+            <div class="chat-message ammachi-message">നമസ്കാരം കൊച്ചേ. എന്താ മനസ്സിൽ?</div>
         </div>
-        <div class="input-container">
+        <div class="input-container-chat">
             <input type="text" id="user-input" placeholder="അമ്മച്ചിയോട് എന്തും ചോദിക്കൂ...">
-            <button id="send-btn">അയക്കുക</button>
+            <button id="send-btn">send🤖</button>
         </div>
-    </main>
+    </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
