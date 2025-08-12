@@ -41,7 +41,7 @@ This is the advice page where we can get advice by chatting.
 
 ### Project Demo
 # Video
-<video controls src="Ammachi Parayum - Google Chrome 2025-08-10 17-01-40.mp4" title="Ammachi Parayum"></video>[]
+<video controls src="Ammachi_demo.mp4" title="Title"></video>]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
