@@ -41,7 +41,7 @@ This is the advice page where we can get advice by chatting.
 
 ### Project Demo
 # Video
-<video controls src="Ammachi_demo.mp4" title="Title"></video>]
+[<video controls src="Ammachi_demo-1.mp4" title="DEMO"></video>]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
